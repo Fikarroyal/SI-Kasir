@@ -1,5 +1,6 @@
-# SI-Kasir
-Cashier information system
+# Kasir Store: Sistem Informasi Kasir
+
+**Kasir Store** adalah aplikasi sistem sederhana yang dirancang untuk mengelola transaksi di toko swalayan. Aplikasi ini mendukung fitur login, manajemen produk, proses transaksi, dan pembuatan laporan penjualan secara otomatis dengan antarmuka yang sederhana dan mudah digunakan.
 
 ## Hasil Output
 
@@ -9,26 +10,26 @@ fitur:
   - login:
       deskripsi: "Pengguna masuk ke sistem dengan username dan password."
       contoh_tampilan:
-        - "===== Login Sistem ====="
+        - "================== Login Sistem =================="
         - "Username: admin"
-        - "Password: ****"
+        - "Password: 1234"
         - "Login berhasil!"
   - manajemen_produk:
       deskripsi: "Menambah dan menampilkan produk di sistem."
       contoh_tampilan:
-        - "===== Tambah Produk ====="
+        - "================== Tambah Produk ================="
         - "ID Produk: 1"
         - "Nama Produk: Susu UHT"
         - "Harga Produk: 15000"
         - "Stok Produk: 20"
         - "Produk berhasil ditambahkan!"
-        - "===== Daftar Produk ====="
+        - "=================== Daftar Produk =================="
         - "| ID       | Nama             | Harga     | Stok    |"
         - "| 1        | Susu UHT         | 15000     | 20      |"
   - transaksi:
       deskripsi: "Melakukan transaksi kasir, menghitung total, dan mencetak struk."
       contoh_tampilan:
-        - "===== Transaksi ====="
+        - "==================== Transaksi ===================="
         - "Masukkan ID Produk (0 untuk selesai): 1"
         - "Nama Produk: Susu UHT"
         - "Stok tersedia: 20"
@@ -39,7 +40,7 @@ fitur:
   - laporan_penjualan:
       deskripsi: "Membuat laporan penjualan dan menyimpannya ke file."
       contoh_tampilan:
-        - "===== Laporan Penjualan ====="
+        - "================ Laporan Penjualan ================"
         - "Struk Belanja:"
         - "Susu UHT x2 = 30000"
         - "Total: 30000"
