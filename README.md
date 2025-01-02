@@ -2,7 +2,7 @@
 
 **Kasir Store** adalah aplikasi sistem sederhana yang dirancang untuk mengelola transaksi di toko swalayan. Aplikasi ini mendukung fitur login, manajemen produk, proses transaksi, dan pembuatan laporan penjualan secara otomatis dengan antarmuka yang sederhana dan mudah digunakan.
 
-## Hasil Output
+## Alur Program
 
 ```yaml
 program: "Kasir Store: Sistem Informasi Kasir"
